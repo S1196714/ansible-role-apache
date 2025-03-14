@@ -1,0 +1,5 @@
+- name: Install Apache
+  ansible.builtin.apt:
+    name: "{{ apache_packages }}"
+    state: present
+  notify: restart apache
