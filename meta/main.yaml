@@ -1,0 +1,14 @@
+galaxy_info:
+  role_name: install apache
+  namespace: S1196714
+  author: "Thyn Kuipers"
+  description: "installeert apache"
+  license: "MIT"
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - apache
+    - webserver
